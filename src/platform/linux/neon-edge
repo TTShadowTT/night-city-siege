@@ -1,0 +1,4 @@
+#!/bin/sh
+# NIGHT CITY SIEGE launcher: starts the native game (neon-edge-bin) from the folder this script lives in.
+DIR=$(dirname "$(readlink -f "$0")")
+exec "$DIR/neon-edge-bin" "$@"
