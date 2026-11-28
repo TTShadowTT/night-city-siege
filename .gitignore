@@ -1,0 +1,21 @@
+# build output
+build/
+*.exe
+*.o
+
+# map pictures: stills from Cyberpunk: Edgerunners, not ours to share
+assets/pictures/
+
+# never commit music files, or anything someone could mistake for a download
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.m4a
+*.mp4
+*.zip
+*.tar.gz
+
+# the hidden parts of the game stay private (secrets_stub.c stands in)
+private/
+src/core/secrets.c
