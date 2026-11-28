@@ -1,6 +1,6 @@
 // Night City Siege offline cache: the game is one page plus its icons, so keep them all.
 // Bump VERSION whenever docs/index.html changes, so players get the new build.
-const VERSION = 'ncs-31';
+const VERSION = 'ncs-32';
 const FILES = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', e => {
